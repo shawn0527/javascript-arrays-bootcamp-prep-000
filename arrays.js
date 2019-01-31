@@ -12,5 +12,5 @@ function addElementToBeginningOfArray(array,element){
 
 function destructivelyAddElementToBeginningOfArray(array,element){
   var element='foo'
-  return newArray=[element,...array]
+  return [element,...array]
 }
